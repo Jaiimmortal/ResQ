@@ -2,7 +2,7 @@
 
 Analysis and cleaning of the June-2017 month's sale of [ResQ](http://resqtechnologies.in/) products data set used for notifying clients for renewal of their product after a year of purchase,  automated using Python.
 
-***Data set hasn't been uploaded, becuase of security and privacy concerns***, but can view the dataset partially in the [IPython Notebook.](https://github.com/Jaiimmortal/resq/blob/master/resq.ipynb)
+***Data set hasn't been uploaded, becuase of security and privacy concerns***, but can view the data set partially in the [IPython Notebook.](https://github.com/Jaiimmortal/resq/blob/master/resq.ipynb)
 
 ### Goals
 
@@ -11,6 +11,6 @@ Analysis and cleaning of the June-2017 month's sale of [ResQ](http://resqtechnol
 
 ### Libraries used
 
-  * [pandas]() - To extract the Date, Customer_name, Contact_number after cleaning and filtering the data set.
-  * [smtp]() - To send email to the admin 
-  * [datetime]() - for fetching today's date which is used to compare with the csv file, for posting renewal updates.
+  * [pandas](https://pandas.pydata.org/pandas-docs/stable/) - To extract the Date, Customer_name, Contact_number after cleaning and filtering the data set.
+  * [smtplib](https://docs.python.org/3/library/smtplib.html) - To send email to the admin 
+  * [datetime](https://docs.python.org/3/library/datetime.html) - for fetching today's date which is used to compare with the csv file, for posting renewal updates.
