@@ -6,8 +6,8 @@ Analysis and cleaning of the June-2017 month's sale of [ResQ](http://resqtechnol
 
 ### Goals
 
-1. To fetch the customer's Date of Purchase, Customer's name and their contact number and save them as a CSV file.
-2. To check the saved CSV file (which will be merged with other month's csv) and if the Date of Purchase turns out to be year old, have to notify the admin via email, that these people have to renew their prodcuts today.
+1. To fetch the customer's Invoice number, Date of Purchase, Customer's name and their contact number and save them as a CSV file.
+2. To check the saved CSV file (which will be merged with other month's csv) and if the Date of Purchase turns out to be year old, have to notify the admin via email, that these people have to renew their products today.
 
 ### Libraries used
 
